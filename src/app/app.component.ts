@@ -13,6 +13,7 @@ export class AppComponent {
   body:any = {
     url: '',
   }
+
   constructor(private shortProvider: ShortProvider) {
     this.Get_urls();
   }
